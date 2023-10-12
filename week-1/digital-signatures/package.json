@@ -1,0 +1,20 @@
+{
+  "name": "digital-signatures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "ethereum-cryptography": "^2.1.2",
+    "mocha": "^10.2.0"
+  }
+}
