@@ -1,0 +1,17 @@
+{
+  "name": "proof-of-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "crypto-js": "^4.1.1",
+    "mocha": "^10.2.0"
+  }
+}
