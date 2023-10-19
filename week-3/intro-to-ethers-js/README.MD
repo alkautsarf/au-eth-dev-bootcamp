@@ -1,0 +1,3 @@
+- fromMnemonic() is deprecated
+- some functions migrated from v5 to v6
+- parsed.gasLimit error
