@@ -1,0 +1,17 @@
+{
+  "name": "solidity-data-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "ethers": "^6.8.0",
+    "mocha": "^10.2.0"
+  }
+}
