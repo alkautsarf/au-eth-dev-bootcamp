@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-4/learning-revert/contracts/Contract.sol": {
+      "lastModificationDate": 1698580915852,
+      "contentHash": "587f79728d13257e8767d16277499e04",
+      "sourceName": "contracts/Contract.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Contract",
+        "ContractModifier"
+      ]
+    }
+  }
+}
