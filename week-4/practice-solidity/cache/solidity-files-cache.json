@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-4/practice-solidity/contracts/contract.sol": {
+      "lastModificationDate": 1698584905002,
+      "contentHash": "109efba598a0825d082f2e23af2511b4",
+      "sourceName": "contracts/contract.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Countdown",
+        "SumAndAverage"
+      ]
+    }
+  }
+}
