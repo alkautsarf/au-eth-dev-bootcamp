@@ -1,0 +1,81 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-4/sending-data/contracts/Hero.sol": {
+      "lastModificationDate": 1698584046241,
+      "contentHash": "95b2f4326c779b134ff84c4cdfa83607",
+      "sourceName": "contracts/Hero.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Hero",
+        "HeroSig"
+      ]
+    },
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-4/sending-data/contracts/Sidekick.sol": {
+      "lastModificationDate": 1698583948210,
+      "contentHash": "d91ab98280da5ccc1191df8c0e917664",
+      "sourceName": "contracts/Sidekick.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IHero",
+        "SidekickFallback",
+        "SidekickInterface",
+        "SidekickManual",
+        "SidekickRelay",
+        "SidekickSig"
+      ]
+    }
+  }
+}
