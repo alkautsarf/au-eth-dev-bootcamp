@@ -7,7 +7,9 @@ describe("Faucet", function () {
   // and reset Hardhat Network to that snapshot in every test.
   async function deployContractAndSetVariables() {
     const Faucet = await ethers.getContractFactory("Faucet");
-    const faucet = await Faucet.deploy();
+    const faucet = await Faucet.deploy({
+      value: ethers.utils.parseEther("1.0") // Sending 1 Ether during deployment
+  });
 
     const [owner, notOwner] = await ethers.getSigners();
 
@@ -41,22 +43,26 @@ describe("Faucet", function () {
     expect(faucet.connect(notOwner).destroyFaucet()).to.be.reverted;
   });
 
-  // it("should withdraw all of the remaining ethers to the caller", async function () {
-  //   const { faucet, owner, notOwner } = await loadFixture(
-  //     deployContractAndSetVariables
-  //   );
+  it("should withdraw all of the remaining ethers to the caller", async function () {
+    const { faucet, owner, notOwner } = await loadFixture(
+      deployContractAndSetVariables
+    );
+
+    // Get the initial balance of the contract
+    const initialBalance = await ethers.provider.getBalance(faucet.address);
     
-  //   // Call withdrawAll() as the owner
-  //   await faucet.withdrawAll();
+    // Call withdrawAll() as the owner
+    const tx = await faucet.connect(owner).withdrawAll();
+    
+    // Wait for the transaction to be mined
+    await tx.wait();
 
-  //   // Check that the owner now has all of the ethers
-  //   expect(await owner.getBalance()).to.equal(
-  //     addrBalance
-  //   );
+    // console.log(tx)
+    
+    const currBalance = await ethers.provider.getBalance(faucet.address)
 
-  //   // Call withdrawAll() as the non-owner
-  //   await expect(
-  //     faucet.connect(notOwner).withdrawAll()
-  //   ).to.be.reverted;
-  // });
+    // Check that the owner now has all of the ethers
+    expect(await currBalance.toString()).to.be.equal("0");
+  });
+
 });
