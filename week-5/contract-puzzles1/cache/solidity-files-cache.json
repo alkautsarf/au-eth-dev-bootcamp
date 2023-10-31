@@ -1,0 +1,217 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-5/contract-puzzles1/contracts/Contract1.sol": {
+      "lastModificationDate": 1698740524809,
+      "contentHash": "2b8ede05dc455492d960fb4caf32ba89",
+      "sourceName": "contracts/Contract1.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Game1"
+      ]
+    },
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-5/contract-puzzles1/contracts/Contract2.sol": {
+      "lastModificationDate": 1698740524808,
+      "contentHash": "f172e66526081ab552345da2e6d277da",
+      "sourceName": "contracts/Contract2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Game2"
+      ]
+    },
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-5/contract-puzzles1/contracts/Contract3.sol": {
+      "lastModificationDate": 1698740524808,
+      "contentHash": "2b05124713458378e154e67dfbaf87ed",
+      "sourceName": "contracts/Contract3.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Game3"
+      ]
+    },
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-5/contract-puzzles1/contracts/Contract4.sol": {
+      "lastModificationDate": 1698740524809,
+      "contentHash": "2ced2d36c168fd17a15c507e7e4f8cce",
+      "sourceName": "contracts/Contract4.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Game4"
+      ]
+    },
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-5/contract-puzzles1/contracts/Contract5.sol": {
+      "lastModificationDate": 1698740524809,
+      "contentHash": "681784a92e06df7e28ace3da64cfd2ff",
+      "sourceName": "contracts/Contract5.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Game5"
+      ]
+    },
+    "/Users/alkautsar/Documents/Coding/solidity/AU-eth-dev-bootcamp/week-5/contract-puzzles1/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1698740553355,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
